@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c9bbb37c94944147af1821d8256d9f0d" Name="Diagram1">
+        <EntityTypeShape EntityType="mLearnDBModel.AspNetRole" Width="1.5" PointX="0.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="mLearnDBModel.AspNetUserClaim" Width="1.5" PointX="5.25" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="mLearnDBModel.AspNetUserLogin" Width="1.5" PointX="5.25" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="mLearnDBModel.CourseDetail" Width="1.5" PointX="5.25" PointY="14.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="mLearnDBModel.mLearnTopic" Width="1.5" PointX="7.5" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="mLearnDBModel.RegisterdCourse" Width="1.5" PointX="9.75" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="mLearnDBModel.TrainerCourseMapping" Width="1.5" PointX="7.5" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="mLearnDBModel.Transaction" Width="1.5" PointX="7.5" PointY="17" IsExpanded="true" />
+        <EntityTypeShape EntityType="mLearnDBModel.UserProfile" Width="1.5" PointX="5.25" PointY="9.375" IsExpanded="true" />
+        <AssociationConnector Association="mLearnDBModel.FK__mLearnTop__cours__35BCFE0A" ManuallyRouted="false" />
+        <AssociationConnector Association="mLearnDBModel.FK__Registerd__cours__5535A963" ManuallyRouted="false" />
+        <AssociationConnector Association="mLearnDBModel.FK__TrainerCo__cours__49C3F6B7" ManuallyRouted="false" />
+        <AssociationConnector Association="mLearnDBModel.FK__Registerd__train__571DF1D5" ManuallyRouted="false" />
+        <AssociationConnector Association="mLearnDBModel.FK__Registerd__trans__5629CD9C" ManuallyRouted="false" />
+        <AssociationConnector Association="mLearnDBModel.FK__Registerd__userI__5441852A" ManuallyRouted="false" />
+        <AssociationConnector Association="mLearnDBModel.FK__TrainerCo__train__48CFD27E" ManuallyRouted="false" />
+        <AssociationConnector Association="mLearnDBModel.FK__Transacti__userI__4F7CD00D" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="mLearnDBModel.GuestLogin" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="mLearnDBModel.UserFeedback" Width="1.5" PointX="10.5" PointY="8.875" />
+        <AssociationConnector Association="mLearnDBModel.FK__UserFeedb__cours__60A75C0F" />
+        <AssociationConnector Association="mLearnDBModel.FK__UserFeedb__userI__5FB337D6" />
+        <EntityTypeShape EntityType="mLearnDBModel.PasswordReset" Width="1.5" PointX="3.375" PointY="0.75" />
+        <EntityTypeShape EntityType="mLearnDBModel.StoreAPIToken" Width="1.5" PointX="0.75" PointY="3.75" />
+        <EntityTypeShape EntityType="mLearnDBModel.AddressPrinter" Width="1.5" PointX="14.625" PointY="24.125" />
+        <EntityTypeShape EntityType="mLearnDBModel.Customer" Width="1.5" PointX="12.375" PointY="15.875" />
+        <EntityTypeShape EntityType="mLearnDBModel.Designer" Width="1.5" PointX="12.375" PointY="20" />
+        <EntityTypeShape EntityType="mLearnDBModel.Meeting" Width="1.5" PointX="14.625" PointY="15.375" />
+        <EntityTypeShape EntityType="mLearnDBModel.Printer" Width="1.5" PointX="12.375" PointY="24.25" />
+        <EntityTypeShape EntityType="mLearnDBModel.ProductImage" Width="1.5" PointX="7.625" PointY="1" />
+        <EntityTypeShape EntityType="mLearnDBModel.Product" Width="1.5" PointX="5.375" PointY="0.875" />
+        <AssociationConnector Association="mLearnDBModel.FK__AddressPr__print__236943A5" />
+        <AssociationConnector Association="mLearnDBModel.FK__Meetings__custom__282DF8C2" />
+        <AssociationConnector Association="mLearnDBModel.FK__Meetings__design__29221CFB" />
+        <AssociationConnector Association="mLearnDBModel.FK__ProductIm__produ__31B762FC" />
+        <EntityTypeShape EntityType="mLearnDBModel.Country" Width="1.5" PointX="7.375" PointY="3.75" />
+        <EntityTypeShape EntityType="mLearnDBModel.District" Width="1.5" PointX="7.375" PointY="6.75" />
+        <EntityTypeShape EntityType="mLearnDBModel.State" Width="1.5" PointX="9.375" PointY="3.75" />
+        <EntityTypeShape EntityType="mLearnDBModel.AspNetUser" Width="1.5" PointX="3" PointY="4.5" />
+        <AssociationConnector Association="mLearnDBModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" />
+        <AssociationConnector Association="mLearnDBModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" />
+        <AssociationConnector Association="mLearnDBModel.FK__UserProfi__regis__01142BA1" />
+        <AssociationConnector Association="mLearnDBModel.FK__UserProfi__regis__02084FDA" />
+        <AssociationConnector Association="mLearnDBModel.FK__UserProfi__regis__02FC7413" />
+        <AssociationConnector Association="mLearnDBModel.FK__UserProfi__regis__03F0984C" />
+        <AssociationConnector Association="mLearnDBModel.FK__UserProfi__regis__04E4BC85" />
+        <AssociationConnector Association="mLearnDBModel.FK__UserProfi__regis__05D8E0BE" />
+        <AssociationConnector Association="mLearnDBModel.FK__UserProfi__regis__0F624AF8" />
+        <AssociationConnector Association="mLearnDBModel.FK__UserProfi__regis__10566F31" />
+        <AssociationConnector Association="mLearnDBModel.FK__UserProfi__regis__114A936A" />
+        <AssociationConnector Association="mLearnDBModel.FK__UserProfi__regis__123EB7A3" />
+        <AssociationConnector Association="mLearnDBModel.FK__UserProfi__regis__1332DBDC" />
+        <AssociationConnector Association="mLearnDBModel.FK__UserProfi__regis__14270015" />
+        <AssociationConnector Association="mLearnDBModel.FK__UserProfi__regis__18EBB532" />
+        <AssociationConnector Association="mLearnDBModel.FK__UserProfi__regis__19DFD96B" />
+        <AssociationConnector Association="mLearnDBModel.FK__UserProfi__regis__1AD3FDA4" />
+        <AssociationConnector Association="mLearnDBModel.FK__UserProfi__regis__1BC821DD" />
+        <AssociationConnector Association="mLearnDBModel.FK__UserProfi__regis__1CBC4616" />
+        <AssociationConnector Association="mLearnDBModel.FK__UserProfi__regis__1DB06A4F" />
+        <AssociationConnector Association="mLearnDBModel.FK__UserProfi__regis__49C3F6B7" />
+        <AssociationConnector Association="mLearnDBModel.FK__UserProfi__regis__4AB81AF0" />
+        <AssociationConnector Association="mLearnDBModel.FK__UserProfi__regis__4BAC3F29" />
+        <AssociationConnector Association="mLearnDBModel.FK__UserProfi__regis__76969D2E" />
+        <AssociationConnector Association="mLearnDBModel.FK__UserProfi__regis__778AC167" />
+        <AssociationConnector Association="mLearnDBModel.FK__UserProfi__regis__787EE5A0" />
+        <AssociationConnector Association="mLearnDBModel.AspNetUserRoles" />
+        <EntityTypeShape EntityType="mLearnDBModel.ProductDetail" Width="1.5" PointX="7.625" PointY="22.75" />
+        <AssociationConnector Association="mLearnDBModel.FK__ProductDe__produ__498EEC8D" />
+        <EntityTypeShape EntityType="mLearnDBModel.ServiceablePinCode" Width="1.5" PointX="10.375" PointY="0.75" />
+        <EntityTypeShape EntityType="mLearnDBModel.PrintPrcQuantity" Width="1.5" PointX="9.875" PointY="24.375" />
+        <AssociationConnector Association="mLearnDBModel.FK__PrintPrcQ__prodD__531856C7" />
+        <EntityTypeShape EntityType="mLearnDBModel.MasterFlag" Width="1.5" PointX="11.375" PointY="3.75" />
+        <EntityTypeShape EntityType="mLearnDBModel.Discount" Width="1.5" PointX="12.375" PointY="0.75" />
+        <EntityTypeShape EntityType="mLearnDBModel.NotificationDesigner" Width="1.5" PointX="19.125" PointY="22" />
+        <EntityTypeShape EntityType="mLearnDBModel.Notificationprnter" Width="1.5" PointX="19.125" PointY="25" />
+        <AssociationConnector Association="mLearnDBModel.FK__Notificat__Desig__5AB9788F" />
+        <AssociationConnector Association="mLearnDBModel.FK__Notificat__Print__5E8A0973" />
+        <AssociationConnector Association="mLearnDBModel.FK__Transacti__Custo__59C55456" />
+        <EntityTypeShape EntityType="mLearnDBModel.Order" Width="1.5" PointX="16.875" PointY="18.625" />
+        <AssociationConnector Association="mLearnDBModel.FK__Orders__pickupAd__09A971A2" />
+        <AssociationConnector Association="mLearnDBModel.FK__Orders__customer__05D8E0BE" />
+        <AssociationConnector Association="mLearnDBModel.FK__Orders__designer__07C12930" />
+        <AssociationConnector Association="mLearnDBModel.FK__Meetings__orderI__5BAD9CC8" />
+        <AssociationConnector Association="mLearnDBModel.FK__Orders__meetingI__08B54D69" />
+        <AssociationConnector Association="mLearnDBModel.FK__Notificat__Order__01142BA1" />
+        <AssociationConnector Association="mLearnDBModel.FK__Notificat__Order__02084FDA" />
+        <AssociationConnector Association="mLearnDBModel.FK__Orders__printerI__0A9D95DB" />
+        <AssociationConnector Association="mLearnDBModel.FK__Orders__transact__0B91BA14" />
+        <EntityTypeShape EntityType="mLearnDBModel.BankAccountDetailsDesigner" Width="1.5" PointX="14.625" PointY="11.875" />
+        <EntityTypeShape EntityType="mLearnDBModel.BankAccountDetailsPrinter" Width="1.5" PointX="14.625" PointY="28.5" />
+        <AssociationConnector Association="mLearnDBModel.FK__BankAccou__Desig__607251E5" />
+        <AssociationConnector Association="mLearnDBModel.FK__BankAccou__Print__65370702" />
+        <EntityTypeShape EntityType="mLearnDBModel.TransactionsPAYOUT" Width="1.5" PointX="19.125" PointY="29.25" />
+        <AssociationConnector Association="mLearnDBModel.FK__Transacti__Order__690797E6" />
+        <EntityTypeShape EntityType="mLearnDBModel.AddressUser" Width="1.5" PointX="14.625" PointY="6.5" />
+        <AssociationConnector Association="mLearnDBModel.FK__AddressUs__userI__6754599E" />
+        <AssociationConnector Association="mLearnDBModel.FK__Orders__delivery__74AE54BC" />
+        <EntityTypeShape EntityType="mLearnDBModel.UserCart" Width="1.5" PointX="13.375" PointY="3.75" />
+        <EntityTypeShape EntityType="mLearnDBModel.orderDetail" Width="1.5" PointX="19.125" PointY="9" />
+        <AssociationConnector Association="mLearnDBModel.FK__orderDeta__order__01142BA1" />
+        <AssociationConnector Association="mLearnDBModel.FK__orderDeta__produ__02084FDA" />
+        <EntityTypeShape EntityType="mLearnDBModel.TransactionsVendorFee" Width="1.5" PointX="0.75" PointY="10.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
